@@ -1,0 +1,81 @@
+body{
+  overflow-x: hidden;
+}
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-bottom: -4rem;
+}
+/*navigatiom*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.8)!important;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #33b5e5;
+}
+
+.home-inner{
+  background-image: url(img/landing.jpg);
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1{
+  font-size: 7rem;
+  color: black;
+  text-shadow: 0.4rem 0.5rem .4rem black;
+
+}
+.narrow-about{
+  width:100%;
+  padding-bottom:8rem;
+  padding-top: 3rem;
+
+}
+.narrow-about h3{
+  font-size: 1.3rem;
+  color:
+#3e464e ;
+
+}
+.heading{
+  padding-bottom: 4rem;
+}
+.jumbotron{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+  background-color:#fafafa;
+}
+.footer{
+  font-size: .9rem;
+  background-color:#212529;
+  padding-top: 2rem;
+  color: #868e96;
+
+}
+
+.spacing{
+
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
